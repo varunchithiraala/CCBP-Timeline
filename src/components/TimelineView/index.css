@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.ccbp-timeline-app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ccbp-timeline-container {
+  height: 100vh;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ccbp-timeline-header-container {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ccbp-timeline-heading {
+  text-align: center;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 2.7;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .ccbp-timeline-heading {
+    font-size: 20px;
+  }
+}
+
+.ccbp-text {
+  color: #2b237c;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .ccbp-text {
+    font-size: 30px;
+  }
+}
